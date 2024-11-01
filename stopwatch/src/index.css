@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-gradient-to-b from-gray-300 to-white min-h-screen flex flex-col items-center;
+    }
+}
+
